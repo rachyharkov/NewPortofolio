@@ -1,0 +1,39 @@
+*
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	overflow-x: hidden;
+	background-color: #a0c0f5;
+}
+
+.welcome-container
+{
+	color: #ffffff;
+	margin-top: 230px;
+	margin-left: 20%;
+}
+
+.nav-item
+{
+	margin-right: 10px;
+}
+
+.nav-item a
+{
+	text-align: center;
+	transition: 0.3s ease;	
+	color: white;
+	width: 100px;
+	border-radius: 10;
+}
+
+.nav-item:hover a
+{
+	border-radius: 20px;
+	color: #a0c0f5;
+	transition: 0.3s ease;
+	background-color: white;
+}
